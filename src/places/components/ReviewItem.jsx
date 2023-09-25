@@ -75,7 +75,7 @@ const ReviewItem = (props) => {
           <div className="place-item__info">
             <h2>{props.title}</h2>
             <div className="place-item__rating">
-              <h3 className="place-item__rating-text">{props.address}</h3>
+              <h3 className="place-item__rating-text">{props.rating}</h3>
               <span style={{ fontSize: "1em", color: "tomato" }}>
                 <i className="fa-solid fa-star"></i>
               </span>

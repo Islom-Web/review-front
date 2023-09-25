@@ -26,7 +26,7 @@ const ReviewList = (props) => {
           image={place.image}
           title={place.title}
           description={place.description}
-          address={place.address}
+          rating={place.rating}
           creatorId={place.creator}
           onDelete={props.onDeletePlace}
         ></ReviewItem>

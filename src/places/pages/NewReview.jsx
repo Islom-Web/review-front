@@ -50,7 +50,7 @@ const NewReview = () => {
       const formData = new FormData();
       formData.append("title", formState.inputs.title.value),
         formData.append("description", formState.inputs.description.value),
-        formData.append("address", formState.inputs.rating.value),
+        formData.append("rating", formState.inputs.rating.value),
         formData.append("image", formState.inputs.image.value);
       await sendRequest(
         import.meta.env.VITE_BACKEND_URL + "/places",
